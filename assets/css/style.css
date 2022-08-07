@@ -1,0 +1,167 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+1.tu ngoai vao trong
+2.tu tren xuong duoi
+3.tu tong quang den chi tiet
+*/
+
+/* 
+1. vi tri
+2. kich thuoc
+3. mau sac
+4.kieu dang
+*/
+
+/* 
+ctrl shift l 
+alt shift mui ten sang
+*/
+
+#main {
+
+}
+
+#header {
+    height: 100px ;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav, .subnav {
+    /*  */
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+    /* text-transform: thiet lap viet hoa cho van ban */
+    text-transform: uppercase; 
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 50px;
+    padding: 25px 24px;
+    display: block;
+}
+
+#nav  li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav li:hover a {
+    color: #000;
+
+}
+
+#nav .subnav {
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    float: right;
+    padding: 27px 40px;
+    font: size 20px; ;
+}
+
+#header .search-btn:hover {
+    background-color: #f444f4;
+    cursor: pointer;
+    
+}
+
+#header .search-icon {
+    color: #ccc;
+    font-size: 20px;
+    line-height: 46px;
+    
+}
+
+#slider {
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('../../assets/css/img/slider1.jpg') top center / cover no-repeat;
+}
+
+#content {
+
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 35px;
+    color:#fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+    /* cach2:    width: 100%; */
+    /* cach3:   right:0; left:0; */
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+#footer {
+
+}
+
