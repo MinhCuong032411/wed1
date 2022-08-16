@@ -133,10 +133,6 @@ alt shift mui ten sang
     background: url('../../assets/css/img/slider1.jpg') top center / cover no-repeat;
 }
 
-#content {
-
-}
-
 #slider .text-content {
     position: absolute;
     bottom: 35px;
@@ -160,6 +156,63 @@ alt shift mui ten sang
     margin-top: 20px;
 
 }
+
+
+#content {
+
+}
+
+#content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    /* letter-spacing : khoang cach giua cac ki tu  */
+    letter-spacing: 4px;
+
+}
+
+#content .section-sub-heading {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    /* italic : chu nghieng */
+    font-style: italic;
+    opacity: 0.6;
+
+}
+
+#content .about-text {
+    margin-top: 25px;
+    font-size: 15px;
+    /* justify : can deu 2 dau doan van */
+    text-align: justify;
+    /* khoang cach giua 2 dong, tieng anh 1.4, tieng viet 1.6 */
+    line-height: 1.4;
+
+}
+
+#content .members-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100%/3);
+}
+
+#content .member-name {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* #content . */
 
 #footer {
 
